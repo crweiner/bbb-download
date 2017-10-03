@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function install_ffmpeg {
-    wget https://github.com/stvs/ffmpeg-static/archive/master.zip
+    wget https://github.com/zimbatm/ffmpeg-static/archive/master.zip
     unzip master.zip
     rm master.zip
     cd ffmpeg-static-master
